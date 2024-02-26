@@ -18,3 +18,4 @@ Algorithm:
 
 Environment:
 - The project focuses on the "Cart-Pole-v1" environment, a classic problem where the agent's goal is to prevent the pole from falling over by skillfully moving the black cart left and right.
+ 
