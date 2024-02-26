@@ -1,19 +1,19 @@
 # Cart-Pole_Reinforcement_Learning_Research
-An introduction project into the machine learning technique called Reinforcement Learning. 
+Reinforcement Learning Introduction Project - Cart-Pole with PPO
 
-I am conducting undergradate research in the realm of Reinforcement Learning at Virginia Tech. 
+Welcome to the Reinforcement Learning Introduction Project! This repository serves as a comprehensive guide and implementation of the fundamental machine learning technique - Reinforcement Learning (RL). Specifically, it focuses on training an agent, represented by a cart, to balance a pole through the use of the Cart-Pole environment hosted by OpenAI Gym (now called gymnasium).
 
-What is Reinforcement Learning (RL)?
-Reinforcement Learning allows the "agent", in this case a cart that is balancing a pole, to train over a large number of iterations with a positive and negative reward system. The agent builds on its understanding and creates a nerual network + optimal policy in order to maximize the long term reward.
+About Reinforcement Learning (RL):
+- Reinforcement Learning enables an "agent" to learn and optimize its behavior by interacting with an environment. In this scenario, our agent is the cart, and its objective is to balance a pole. The learning process involves numerous iterations with a positive and negative reward system, allowing the agent to refine its understanding and develop a neural network-based optimal policy to maximize long-term rewards.
 
-As an introduction into the use of training algorithms for RL, this environment is hosted by OpenAI Gym (now called gymnasium) and I used the OpenAI API along with a library of RL policy algorithms called stable_baselines_3. As well as using DummyVecEnv to help with the vectorization of the environment.
-
+Key Features:
+   
+- Implementation using OpenAI Gym and the stable_baselines_3 library.
+- Integration of OpenAI API for enhanced functionality.
+- Utilization of DummyVecEnv for efficient vectorization of the RL environment.
+   
 Algorithm:
-I chose to use Proximal Policy Optimization (PPO) for this task.
+- For this project, we have chosen the Proximal Policy Optimization (PPO) algorithm. PPO is a robust and widely used RL algorithm, well-suited for training agents in a variety of environments.
 
 Environment:
-"Cart-Pole-v1"
-
-Goal:
-The agent's goal is to keep the pole from falling over by moving the black cart left and right to counter balance.
-
+- The project focuses on the "Cart-Pole-v1" environment, a classic problem where the agent's goal is to prevent the pole from falling over by skillfully moving the black cart left and right.
