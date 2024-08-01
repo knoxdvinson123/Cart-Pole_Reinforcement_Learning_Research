@@ -1,5 +1,4 @@
-# Cart-Pole_Reinforcement_Learning_Research
-Reinforcement Learning Introduction Project - Cart-Pole with PPO
+# Reinforcement Learning Introduction Project - Cart-Pole with PPO
 
 Welcome to the Reinforcement Learning Introduction Project! This repository serves as a comprehensive guide and implementation of the fundamental machine learning technique - Reinforcement Learning (RL). Specifically, it focuses on training an agent, represented by a cart, to balance a pole through the use of the Cart-Pole environment hosted by OpenAI Gym (now called gymnasium).
 
